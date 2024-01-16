@@ -1,0 +1,20 @@
+version: '3.1'
+services:
+  dam_odoo:
+    image: odoo:16.0
+    depends_on:
+      - dam_postgresOdoo
+    ports:
+      - 8069:8069
+    environment:
+      - HOST=dam_postgresOdoo
+      - USER=castelao
+      - PASSWORD=castelao
+  dam_postgresOdoo:
+    image: postgres:15
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=castelao
+      - POSTGRES_USER=castelao
