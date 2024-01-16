@@ -2,6 +2,9 @@
 
 ## Instalación con Docker Compose
 
+Ejecutar un `docker compose up -d` en la terminal en la ubicacion del archivo docker-compose.yml para poder ejecutar levantar el postgres y el odoo.
+
+
 
 
 
