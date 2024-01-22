@@ -5,9 +5,6 @@
 Ejecutar un `docker compose up -d` en la terminal en la ubicacion del archivo docker-compose.yml para poder ejecutar levantar el postgres y el odoo.
 
 
-
-
-
 ## Error puerto Ocupado
 
 De estar el puerto 5432 ocupado se puede usar los siguientes comandos para poder limpiarlo:
