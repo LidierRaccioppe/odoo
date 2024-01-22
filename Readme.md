@@ -4,6 +4,13 @@
 
 Ejecutar un `docker compose up -d` en la terminal en la ubicacion del archivo docker-compose.yml para poder ejecutar levantar el postgres y el odoo.
 
+## Pasos con imagenes
+
+![el_docker](./Imagenes/imagen.png)
+
+![la_conexion](./Imagenes/imagen2.png)
+
+![creacion de odoo](./Imagenes/imagen3.png)
 
 ## Error puerto Ocupado
 
